@@ -1,4 +1,6 @@
-1.	Nombre de la aplicación: Where is it?
+1.	Nombre de la aplicación:
+
+Where is it?
 
  
 
@@ -22,4 +24,4 @@ de un web service consumido desde el navegador, este será enviado a través de 
 -	Huella dactilar/Face ID: con el propósito de autenticar la identidad del administrador o coordinador de los activos a ubicar.
 -	Acceso al almacenamiento interno del dispositivo (contactos más específicamente): con la finalidad de mandar de manera rápida 
 	y sencilla la ruta con la menor cantidad de botones
-- 	la ubicación de un activo a un contacto previamente añadido.
+- 	La ubicación de un activo a un contacto previamente añadido.
