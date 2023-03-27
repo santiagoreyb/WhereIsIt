@@ -1,4 +1,6 @@
+
 package com.example.whereisit
+
 
 import android.os.Bundle
 import android.Manifest
@@ -16,16 +18,19 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 
+
+
 class ImageAdap : AppCompatActivity() {
 
     val REQUEST_CODE_CAMERA_PERMISSION = 1
     val REQUEST_CODE_IMAGE_CAPTURE = 2
     val REQUEST_CODE_IMAGE_PICKER = 3
-    lateinit var takePhotoButton: Button
-    lateinit var galleryButton: Button
-    lateinit var imagen: ImageView
+    lateinit var takePhotoButton:Button
+    lateinit var galleryButton:Button
+    lateinit var imagen:ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.img)
 
@@ -75,7 +80,7 @@ class ImageAdap : AppCompatActivity() {
             imagen.setImageBitmap(imageBitmap)
         }
         if (requestCode == REQUEST_CODE_IMAGE_PICKER && resultCode == RESULT_OK && data != null) {
-            val imageUri: Uri? = data?.data
+            val imageUri: Uri? = data.data
             val bitmap = BitmapFactory.decodeStream(contentResolver.openInputStream(imageUri!!))
             imagen.setImageBitmap(bitmap)
         }

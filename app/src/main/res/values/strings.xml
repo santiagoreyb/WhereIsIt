@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Where is it</string>
+    <string name="latitud">Latitud:</string>
+    <string name="longitud">Longitud:</string>
+    <string name="historial">Historial</string>
+    <string name="aniadir_activo">Añadir Activo</string>
 </resources>

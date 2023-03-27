@@ -7,24 +7,24 @@
     tools:context=".maps_class">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/HistorialButtonID"
         android:layout_width="140dp"
         android:layout_height="48dp"
         android:layout_marginBottom="72dp"
         android:backgroundTint="@color/blue"
-        android:text="Historial"
+        android:text="@string/historial"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/AniadirButtonID"
         app:layout_constraintHorizontal_bias="0.378"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/AniadirButtonID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="72dp"
         android:backgroundTint="@color/blue"
-        android:text="Añadir Activo"
+        android:text="@string/aniadir_activo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.826"
@@ -67,7 +67,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/TresPuntosImageViewID"
         android:layout_width="58dp"
         android:layout_height="49dp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
@@ -79,15 +79,40 @@
         app:srcCompat="@drawable/puntos" />
 
     <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="266dp"
-        android:layout_height="547dp"
+        android:id="@+id/MapaImageViewID"
+        android:layout_width="265dp"
+        android:layout_height="453dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/toolbar2"
-        app:layout_constraintVertical_bias="0.333"
+        app:layout_constraintVertical_bias="0.492"
         app:srcCompat="@drawable/map" />
+
+    <TextView
+        android:id="@+id/LongitudTextViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/longitud"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView" />
+
+    <TextView
+        android:id="@+id/LatitudTextViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="3dp"
+        android:text="@string/latitud"
+        app:layout_constraintBottom_toTopOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LongitudTextViewID"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
