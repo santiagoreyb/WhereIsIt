@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">PreParcial</string>
-    <string-array name="Saludos">
-        <item>Hola</item>
-        <item>Adios</item>
-        <item>Chao</item>
-    </string-array>
-</resources>
