@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Where is it</string>
+    <string name="latitud">Latitud:</string>
+    <string name="longitud">Longitud:</string>
+    <string name="historial">Historial</string>
+    <string name="aniadir_activo">Añadir Activo</string>
+    <string name="hintAddress">Ingresa la ubicación donde quieres buscar</string>
+    <string name="calcular_ruta">Calcular Ruta</string>
+    <string name="soporte">Soporte</string>
+    <string name="escribe_acaa">Escribe acá...</string>
+    <string name="enviar">Enviar</string>
+    <string name="logo">Logo</string>
+    <string-array name="opcionesPQRS">
+        <item>Pregunta</item>
+        <item>Queja</item>
+        <item>Reclamo</item>
+        <item>Sugerencia</item>
+    </string-array>
+</resources>

@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/blue"
+        android:theme="?attr/actionBarTheme">
+
+        <ImageView
+            android:id="@+id/TresPuntosImageViewID"
+            android:layout_width="58dp"
+            android:layout_height="49dp"
+            android:src="@drawable/puntos" />
+
+        <EditText
+            android:id="@+id/texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintAddress"
+            android:autofillHints="@string/hintAddress"
+            android:inputType="text"
+            android:imeOptions="actionSend"
+            android:background="@drawable/roundcorner"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/blue"
+            android:textSize="15sp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/HistorialButtonID"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/historial"
+        android:layout_gravity="bottom|start" />
+
+    <Button
+        android:id="@+id/AniadirButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/aniadir_activo"
+        android:layout_gravity="bottom|end" />
+    <Button
+        android:id="@+id/CalcularRutaButtonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:text="@string/calcular_ruta"
+        android:layout_gravity="bottom|center_horizontal"
+        />
+</FrameLayout>
+
+
