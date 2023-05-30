@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AniadirActivoActivity">
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/blue">
+        </HorizontalScrollView>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/LogoImageViewID"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="-20dp"
+                app:srcCompat="@drawable/where_is_it___logo_1" />
+
+            <TextView
+                android:id="@+id/AniadirActivoTextViewID"
+                android:text="@string/aniadir_activo"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ActivoImageViewID"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:contentDescription="@string/foto_fiisico"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/cel" />
+
+        <TextView
+            android:id="@+id/FotoActivoTextViewID"
+            android:text="@string/foto_del_activo"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/NombreReferenciaTextViewID"
+            android:text="@string/nombre_de_referencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/NombreReferenciaEditTextID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginStart="40dp"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/ID_ActivoTextViewID"
+            android:text="@string/id_activo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/ID_ActivoEditTextID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginStart="40dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/CorreoResponsableTextViewID"
+            android:text="@string/correo_responsable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/CorreoResponsableEditTextID"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="55dp" />
+
+        <Button
+            android:id="@+id/AniadirActivoButtonID"
+            android:text="@string/aniadir_activo"
+            android:backgroundTint="@color/blue"
+            app:iconTint="@color/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

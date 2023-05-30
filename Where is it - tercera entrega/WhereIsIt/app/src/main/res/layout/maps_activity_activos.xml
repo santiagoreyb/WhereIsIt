@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/blue"
+        android:theme="?attr/actionBarTheme">
+
+        <ImageView
+            android:id="@+id/TresPuntosImageViewID"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/puntos" />
+
+        <EditText
+            android:id="@+id/texto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintAddress"
+            android:autofillHints="@string/hintAddress"
+            android:inputType="text"
+            android:imeOptions="actionSend"
+            android:background="@drawable/roundcorner"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/blue"
+            android:textSize="15sp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/HistorialButtonID"
+        android:text="@string/historial"
+        android:backgroundTint="@color/blue"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="bottom|start" />
+
+    <Button
+        android:id="@+id/CalcularRutaButtonID"
+        android:text="@string/calcular_ruta"
+        android:backgroundTint="@color/blue"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="bottom|start" />
+
+    <Button
+        android:id="@+id/ActivosButtonID"
+        android:text="@string/activos"
+        android:backgroundTint="@color/blue"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="bottom|end" />
+
+</FrameLayout>
