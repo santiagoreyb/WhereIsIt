@@ -2,17 +2,9 @@
 
 Android app for **real-time device tracking**, with credential management and role-based access.
 
----
+**Team:** [@santiagoreyb](https://github.com/santiagoreyb) · [@JhosephL](https://github.com/JhosephL) — the only contributors to the project.
 
-### About the "forked from" label
-
-GitHub displays this repository as *“Forked from Intro-CompuMovil/WhereIsIt”*. That upstream repository is **not someone else's project**: `Intro-CompuMovil` is the GitHub organization of the *Introducción a Computación Móvil* course at Pontificia Universidad Javeriana, where student teams hosted their work.
-
-The application was built from scratch by our two-person team — we are the only contributors to both this repository and the upstream one.
-
-**Team:** [@santiagoreyb](https://github.com/santiagoreyb) · [@JhosephL](https://github.com/JhosephL)
-
----
+Built for the *Introducción a Computación Móvil* course at Pontificia Universidad Javeriana, where each team hosted its repository under the course organization, [@Intro-CompuMovil](https://github.com/Intro-CompuMovil) — which is why GitHub shows this copy as a fork.
 
 ### Features
 
@@ -35,6 +27,6 @@ Aplicación móvil Android para el **seguimiento de dispositivos en tiempo real*
 
 Desarrollada en **Kotlin** con Android Studio, integrando **Firebase** para autenticación, almacenamiento y base de datos, y las APIs de **Google Maps** y **OSM** para geolocalización.
 
-Sobre la etiqueta *“forked from”*: `Intro-CompuMovil` es la organización de GitHub del curso *Introducción a Computación Móvil* de la Pontificia Universidad Javeriana, donde los equipos alojaban sus proyectos. La aplicación fue construida desde cero por nuestro equipo de dos personas.
+Proyecto del curso *Introducción a Computación Móvil* de la Pontificia Universidad Javeriana, donde cada equipo alojaba su repositorio bajo la organización del curso, [@Intro-CompuMovil](https://github.com/Intro-CompuMovil).
 
 </details>
